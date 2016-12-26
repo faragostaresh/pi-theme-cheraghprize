@@ -394,3 +394,19 @@ form .icon-question-sign {
 .pi-footer .pi-footer-copyright {
     padding: 25px 0;
 }
+
+/* modules */
+.widget-list,
+.widget-media-list {
+    text-align: justify;
+}
+
+.widget-list h4,
+.widget-media-list h4,
+.widget-media-list .widget-media-list-image {
+    text-align: center !important;
+}
+
+.widget-media-list .widget-media-list-image .img-responsive {
+    margin: 0 auto;
+}
