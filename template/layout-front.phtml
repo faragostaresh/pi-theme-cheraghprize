@@ -246,14 +246,6 @@ $breadcrumbs = $this->breadcrumb(
                             </div>
                         </div>
                     <?php } ?>
-                    <!-- Center bottom zone -->
-                    <?php if (isset($blocks['7'])) { ?>
-                        <div class="pi-zone-7">
-                            <?php foreach ($blocks['7'] as $block) {
-                                include $blockTemplate;
-                            } ?>
-                        </div>
-                    <?php } ?>
                 </div>
                 <!-- Right zone -->
                 <?php if (isset($blocks['8'])) { ?>
@@ -268,6 +260,19 @@ $breadcrumbs = $this->breadcrumb(
     </div>
 </section>
 <!-- Bottom foot zone -->
+<?php if (isset($blocks['7'])) { ?>
+    <section class="pi-section-news">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 pi-zone-7">
+                    <?php foreach ($blocks['7'] as $block) {
+                        include $blockTemplate;
+                    } ?>
+                </div>
+            </div>
+        </div>
+    </section>
+<?php } ?>
 <?php if (isset($blocks['99'])) { ?>
     <section class="pi-section-bottom">
         <div class="container">
@@ -292,9 +297,7 @@ $breadcrumbs = $this->breadcrumb(
                     </a>
                 </div>
             </div>
-            <div class="col-md-5">
-
-            </div>
+            <div class="col-md-5"></div>
             <div class="col-md-5">
                 <div class="pi-footer-social">
                     <ul class="list-inline">
