@@ -361,6 +361,7 @@ form .icon-question-sign {
 .pi-section {
     background-color: #fff;
     margin-bottom: 50px;
+    text-align: justify;
 }
 
 .pi-section .pi-main-container {
