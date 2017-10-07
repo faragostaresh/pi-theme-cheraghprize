@@ -361,7 +361,7 @@ form .icon-question-sign {
 .pi-section {
     background-color: #fff;
     margin-bottom: 50px;
-    text-align: justify;
+    text-align: justify !important;
 }
 
 .pi-section .pi-main-container {
@@ -408,7 +408,7 @@ form .icon-question-sign {
 /* modules */
 .widget-list,
 .widget-media-list {
-    text-align: justify;
+    text-align: justify !important;
 }
 
 .widget-list h4,
@@ -419,6 +419,11 @@ form .icon-question-sign {
 
 .widget-media-list .widget-media-list-image .img-responsive {
     margin: 0 auto;
+}
+
+.widget-list-media-single .text-left,
+.widget-list-text-single .text-left {
+    text-align: justify !important;
 }
 
 .news-item-block-magazine img {
